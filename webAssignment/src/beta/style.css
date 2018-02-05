@@ -1,0 +1,150 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	width: 100%;
+	background-color: #4AA7FF;
+
+}
+
+
+#tours-top-nav{
+	height: 100px;
+
+
+}
+
+#tours-page{
+	width: 100%;
+	height:auto;
+
+
+}
+
+
+
+
+#tours-cta a {
+    display: block;
+    list-style: none;
+    font-weight: bold;
+    font-size: 14pt;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-weight: 100;
+    text-align: center;
+    text-decoration: none;
+    height: 40px;
+    width: 180px;
+    border: 2px #FFF solid;
+    color: #FFF;
+    padding-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+#tours-cta a:hover{
+	background: #FFF;
+	color: #000;
+	border:2px #FFF solid;
+	height: auto;
+	width: 180px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+	/*
+	border-top-left-radius:1em;
+	border-top-right-radius:1em;
+	border-bottom-right-radius:1em;
+	border-bottom-left-radius:1em;
+	*/
+}
+
+#tours-collections{
+	width: 960px;
+	height:auto;
+	margin-left: auto;
+	margin-right: auto;
+
+
+}
+
+#tours-collections-1{
+	width: 300px;
+	height: 300px;
+	margin-left: 10px;
+	margin-right: 10px;
+	float: left;
+	background-color: #fff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+
+
+#tour-collection-title{
+
+
+}
+
+
+
+#tour-collection-artist{
+	color: #00F;
+	font-size:16px;
+	font-weight:200;
+
+}
+
+
+
+
+#tour-collection-dates{
+
+
+}
+
+
+#tour-collection-host{
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+
+
+
+#tours-collections{
+	width: 96%;
+	height:auto;
+	margin-left: auto;
+	margin-right: auto;
+
+
+}
+
+#tours-collections-1{
+	width: 100%;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+
+
+}
+
+
+
+
+
+
+}
