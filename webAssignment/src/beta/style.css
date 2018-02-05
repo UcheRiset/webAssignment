@@ -70,6 +70,7 @@ body {
 #tours-collections-1{
 	width: 280px;
 	height: auto;
+	cursor: pointer;
 	margin-left: 10px;
 	margin-right: 10px;
 	float: left;
@@ -81,6 +82,12 @@ body {
 	border-bottom-right-radius:1em;
 	border-bottom-left-radius:1em;
 	padding: 10px;
+	z-index: 20;
+	-webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: all 600ms;
+    transition: all 600ms;
+
 }
 
 
@@ -114,6 +121,25 @@ body {
 }
 
 
+:checked + #tours-collection-1 {
+    transform: rotateX(180deg);
+    -webkit-transform: rotateX(180deg);
+}
+
+    #tours-collections-1 #tour-back {
+        background: #222;
+        color: #FFF;
+        -webkit-transform: rotateX(180deg);
+        transform: rotateX(180deg);
+    }
+
+#tour-front{
+	display:block;
+
+
+}
+
+
 
 
 #tour-collection-title{
@@ -144,6 +170,12 @@ body {
 
 
 }
+
+input {
+    display: none;
+}
+
+
 
 
 
